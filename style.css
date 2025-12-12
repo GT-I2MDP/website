@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Reset et base */
 body {
     margin: 0;
@@ -75,4 +79,5 @@ img {
   height: auto;
   display: block;
 }
+
 
