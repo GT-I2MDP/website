@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NoduLoCC2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header> 
+      <h1>Tentative Challenge - NoduLoCC2026: Lung Nodule Localization and Classification Contest from Chest X-Ray Images</h1>
+      <h2>GT-I<sup>2</sup>MDP du GDR-IASIS</h2>
+      <h3>Karim Hammoudi, Université de Haute-Alsace, IRIMAS</h3>
+      <h3>Halim Benhabiles, IMT Nord Europe, CERI SN</h3>
+      <h3>Adnane Cabani, Université Rouen Normandie, ESIGELEC, IRSEEM</h3>
+      <h3>Adnan Mustafic, Université de Haute-Alsace, IRIMAS</h3>
+    </header>
+
+    <section>
+      <h2>Task overview</h2>
+      <p>
+        Our challenge focuses on developing methods for lung nodule detection and lung nodule classification from Chest X-Ray images.
+1. Lung nodule detection is performed through a lung classification task into two categories, lung containing nodules and healthy lungs.
+2. Lung nodule localization which consists of finding the center point of nodules in chest x-ray images.
+        </p>
+      <p>
+The competition is open to any <strong>academic teams</strong> from universities and or research institutes of which at
+least one member holds a Ph.D in computer science, biomedical engineering, or radiology.
+      </p>
+    </section>
+
+    <section>
+      <h2>Datasets</h2>
+      <p>
+        The competitors will be provided with a single original dataset including X images of frontal radiographs as JPG images and associated ground truths, namely class label (presence, absence of nodules), and pixel coordinates corresponding to positions of nodules for images labeled nodule positive. 
+        <strong>The participants can train their models on additional datasets upon request and organizer authorization. If this rule is not respected, the team’s work will not be considered for the competition.</strong>
+
+        The dataset for this challenge comes from two sources, introducing natural variability in acquisition protocols and patient populations. The dataset also contains relatively few annotated images for certain conditions, reflecting real-world challenges in handling class imbalance and heterogeneous data. By framing the challenge around these constraints, we aim to highlight scientifically relevant issues and encourage the development of algorithms that are robust, generalizable, and clinically meaningful.
+        
+        The test set that will be used in the experimental study comes from a different data source which differs from the training dataset.
+        
+      </p>
+    </section>
+
+    <section>
+      <h2>Evaluation</h2>
+      <p>
+        Classification metrics: For the classification task, standard metrics will be used, including accuracy, recall, precision, F1.
+        Localization metrics: For the localization task, a custom metric based on weighted distances will be used.
+      </p>
+    </section>
+    <section>
+      <h2>Submission</h2>
+      <p>
+        Final submissions will need to provide
+        <ul>
+          <li>The complete source code shared via a github repository for testing reproducibility of the results</li>
+          <li>A summary of the approach including the following points:
+            <ul>
+              <li>Definition of loss functions and evaluation metrics used for the two tasks</li>
+              <li>The training time</li>
+              <li>The inference time</li>
+              <li>Hardware used for the training of the approaches</li>
+              <li>Size of the model in terms of parameters</li>
+            </ul>
+          </li>
+        </ul>
+      Teams are authorized to submit only one method for each task.
+      </p>
+    </section>
+    <section>
+      <h2>Schedule Timeline & Registration</h2>
+      <p>
+        <ul>
+          <li>January 12, 2026: Dataset is made available, and participants are allowed to run their calculations.</li>
+          <li>January 31, 2026: Registration deadline. Registration must be sent to Adnan Mustafic, Karim Hammoudi, Halim Benhabiles and Adnane Cabani before january 31st 2026. 
+            <a href="mailto:adnan.mustafic@uha.fr,karim.hammoudi@uha.fr,halim.benhabiles@imt-nord-europe.fr,adnane.cabani@esigelec.fr?subject=NoduLoCC2026%20-%20Registration">Register here</a></li>
+          <li>February 12, 2026: Submission deadline of the results to the organizers.</li>
+          <li>February 27, 2026: Communication of the results to the participants.</li>
+          <li>March 15, 2026: Submission of the report to ArXiV including the top 10 approaches.</li>
+          <li>March 23, 2026: Submission of the report into a Q1 elsevier journal article. Discussions with editors are in progress.</li>
+        </ul>
+      </p>
+    </section>
+
+    <section>
+      <h2>Registration</h2>
+      <p>
+        Registration must be sent to Adnan Mustafic, Karim Hammoudi, Halim Benhabiles and Adnane Cabani before january 31st 2026.
+        <a href="mailto:adnan.mustafic@uha.fr,karim.hammoudi@uha.fr,halim.benhabiles@imt-nord-europe.fr,adnane.cabani@esigelec.fr?subject=NoduLoCC2026%20-%20Registration">Register here</a>
+        The email must contain the following information:
+        <ul>
+          <li>Your teamname for the challenge</li>
+          <li>The list of participants and their affiliations</li>
+        </ul>
+      </p>
+    </section>
+    <section>
+      <h2>References</h2>
+      
+    </section>
+  </div>
+</body>
